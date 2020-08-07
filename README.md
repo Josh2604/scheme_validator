@@ -20,5 +20,5 @@ exports.validator = (req, res, next) => {
 ```
 
 Dev dependencies:
-- @hapi/joi
+- @hapi/joi - ^17.1.1
 - Jest

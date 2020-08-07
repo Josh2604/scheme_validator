@@ -1,0 +1,22 @@
+{
+  "name": "scheme_validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/magiclog/scheme_validator.git"
+  },
+  "keywords": [],
+  "author": "github.com/Josh2604",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/magiclog/scheme_validator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@hapi/joi": "^17.1.1",
+    "jest": "^26.2.2"
+  }
+}

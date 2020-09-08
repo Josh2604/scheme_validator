@@ -2,7 +2,7 @@
 
 Scheme validator example:
 ```js
-exports.validator = (req, res, next) => {
+exports.validator = async(req, res, next) => {
   const schema = Joi.object({
     user_name: Joi.string().required(),
     apells: Joi.string().required(),
